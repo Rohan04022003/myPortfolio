@@ -150,6 +150,10 @@ body {
   cursor: pointer;
 }
 
+#themeIcon1{
+  cursor: pointer;
+}
+
 .header-section .navbar .whatsapp{
   color: white !important;
   background-color: #008979 !important;
