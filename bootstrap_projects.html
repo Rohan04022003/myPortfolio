@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./image/portfolio.png" type="image/x-icon">
+    <title>Rohan Kumar Mahto | Portfolio.</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="html_css_project.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div id="bottomToTopScroll">
+      <i class="fa-solid fa-arrow-up"></i>
+    </div>
+    <header class="header-section">
+      <div class="navbar">
+        <div class="logo">Rohan</div>
+        <div class="nav-links">
+          <ul class="menu">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./index.html#about">About</a></li>
+            <li><a href="./html_css_project.html" class="active">Projects</a></li>
+            <li><a href="./index.html#blog">Blog</a></li>
+            <li><i class="fa-solid fa-xmark close-menu"></i>
+          </ul>
+        </div>
+
+          <div class="button">
+            <i  onclick="lightdark(this)" class="fa-solid fa-moon light-dark" id="themeIcon1"></i>
+            <a href="https://wa.me/91+ 8404973614" target="_blank" class="btn whatsapp"><i class="fa-brands fa-whatsapp"></i></a>
+          </div>
+
+        <div class="hamburger">
+          <button class="light-dark">
+            <i class="fa-solid fa-moon" onclick="lightdark(this)" id="themeIcon2"></i>
+          </button>
+          <i class="fa-solid fa-bars open-menu"></i>
+        </div>
+      </div>
+    </header>
+
+    <section class="page3 project-page1" id="project">
+      <div class="project-heading projectPageHeading">
+        <h2>PROJECTS</h2>
+      </div>
+
+      <div class="projects-links">
+        <ul>
+            <li><a href="./html_css_project.html">HTML, CSS & JS</a></li>
+            <li><a href="./bootstrap_projects.html" style="background-color: var(--secondary-color); color: var(--primary-color);">Bootstrap</a></li>
+            <li><a href="./tailwindcss_project.html">Tailwind CSS</a></li>
+            <li><a href="./website_clone_project.html">Website Clone</a></li>
+        </ul>
+      </div>
+
+      <div class="project-cart-section">
+        <div class="cart-body projectPageCard">
+          <div class="img-section">
+            <img src="./image/img 3.jpg" alt="e-commerce">
+          </div>
+          <div class="cart-description">
+            <div class="cart-heading">
+              <h4>Apollo Hospital Clone</h4>
+            </div>
+            <div class="cart-details">
+              <p>Built a responsive Apollo website clone with HTML, CSS, and Bootstrap. Achieved seamless user experience across devices with intuitive design and functionality.
+              </p>
+            </div>
+            <div class="cart-buttons">
+              <a href="https://github.com/Rohan04022003/Hospital-management01" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
+              <a href=" https://rohan04022003.github.io/Hospital-management01/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live Demo</a>
+            </div>
+          </div>
+        </div>
+        <div class="cart-body projectPageCard">
+          <div class="img-section">
+            <img src="./image/img 10.jpg" alt="e-commerce">
+          </div>
+          <div class="cart-description">
+            <div class="cart-heading">
+              <h4>Fit Body</h4>
+            </div>
+            <div class="cart-details">
+              <p>Built a responsive GYM website clone with HTML, CSS, and Bootstrap. Achieved seamless user experience across devices with intuitive design and functionality.
+              </p>
+            </div>
+            <div class="cart-buttons">
+              <a href="https://github.com/Rohan04022003/fit-body" target="_blank"><i class="fa-brands fa-github"></i>Github</a>
+              <a href="https://rohan04022003.github.io/fit-body/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i>Live Demo</a>
+            </div>
+          </div>
+        </div>
+    </div>
+    </section>
+
+  <footer>
+    <div class="my-email">
+      <a href="mailto:rohankumar993985@gmail.com" class="email-btn"><i class="fa-solid fa-envelope"></i>rohankumar993985@gmail.com</a>
+    </div>
+
+    <div class="copyright">
+      <p>copyright &copy; 2024 Rohan Kumar Mahto. All Right Reserved</p>
+    </div>
+  </footer>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./gsap.js"></script>
+    <script src="./script.js"></script>
+  </body>
+</html>

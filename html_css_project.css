@@ -1,0 +1,48 @@
+.project-page1{
+    margin-top: 3rem;
+}
+
+.project-page1 h2{
+    font-size: 3rem !important;
+    margin-bottom: -2rem !important;
+    font-weight: 700;
+}
+
+.projects-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    margin: 0 2rem 5rem 2rem;
+}
+
+.projects-links ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    list-style: none;
+    font-size: 3.5rem;
+}
+
+.projects-links ul li a{
+    text-decoration: none;
+    padding: 1rem 2rem;
+    color: var(--secondary-color);
+    border-radius: 5rem;
+    border: 1px solid var(--secondary-color);
+}
+
+.projects-links ul li a:hover{
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    transition: .3s linear;
+}
+
+@media (max-width:1050px) {
+    .projects-links ul{
+        justify-content: flex-start;
+        font-size: 5.5rem;
+    }
+}
