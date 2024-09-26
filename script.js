@@ -72,3 +72,24 @@ window.onscroll = () => {
 
 let menu = document.querySelector("#menu-btn");
 let navbar = document.querySelector(".navbar");
+
+window.addEventListener('scroll',function(){
+  if(this.scrollY > 250){
+    document.querySelector("#bottomToTopScroll").classList.remove("opacityBottomToTopScroll")
+  }
+  else{
+    document.querySelector("#bottomToTopScroll").classList.add("opacityBottomToTopScroll")
+
+  }
+})
+
+document.querySelector("#bottomToTopScroll").addEventListener('click',function(){
+
+  window.scrollTo(
+    {
+      top: 0,
+      behavior: "smooth"
+    }
+  )
+
+})
