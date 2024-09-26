@@ -46,8 +46,11 @@ body {
   z-index: 999999999;
   bottom: 5%;
   right: 3%;
-  opacity: 0;
   transition: .3s linear;
+}
+
+.opacityBottomToTopScroll{
+  opacity: 0;
 }
 
 #bottomToTopScroll i{
